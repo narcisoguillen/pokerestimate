@@ -1,446 +1,458 @@
-.error-message{
-  text-align: center;
+//.error-message{
+  //text-align: center;
 
-  .columns{
-    float: none;
-    margin: 0 auto;
-  }
+  //.columns{
+    //float: none;
+    //margin: 0 auto;
+  //}
+//}
+
+//@import "mixins";
+//@import "animations";
+//@import "status/*.png";
+//@include all-status-sprites;
+//$experimental-support-for-svg: true;
+
+//#player-container{
+
+  //h1.name{
+    //font-size: 30px;
+    //margin-bottom: 30px;
+  //}
+
+  //.container.row{
+    //width: 940px;
+    //margin: 0 auto;
+    //background: transparent url('../images/games/line-bg.jpg') repeat-y 235px;
+
+    //.head{
+      //border: 1px solid #DFD4C8;
+      //overflow: hidden;
+
+      //h1{
+        //float: left;
+        //line-height: 22px;
+        //font-size: 18px;
+      //}
+
+    //}
+    //.item{
+      //@include global_font;
+      //font-size: 12px;
+      //color: #999999;
+      //padding: 7px 0 7px 15px;
+      //margin: 2px 0;
+    //}
+
+    //.js-player-list{
+      //.alert-box{
+        //text-align: center;
+      //}
+    //}
+
+    //#task-detail{
+      //float: left;
+
+      //h1{
+        //padding-left: 30px;
+        //background: transparent url('../images/games/title-games.png') no-repeat left center;
+      //}
+
+      //.head{
+        //border-right: none;
+        //padding: 7px 10px 7px 0;
+        //height: 39px;
+      //}
+
+      //.title{
+        //clear: both;
+        //font-size: 18px;
+        //text-align: center;
+        //margin: 10px;
+        //color: white;
+      //}
+
+      //.labels{
+        //display: inline-block;
+        //margin-bottom: 5px;
+
+        //label{
+          //float: right;
+          //margin: 0 4px;
+          //font-size: 11px;
+          //background: $red-99;
+          //@include border-radius(5px);
+          //padding: 3px 5px;
+          //color: white;
+          //@include transition(.5s);
+          //&:hover{
+            //background: $red-c7;
+          //}
+        //}
+      //}
+      //#play-area{
+        //border: 3px solid black;
+        //padding: 15px;
+        ////black
+        //@include background-image(linear-gradient($black-55,black));
+        //// red wine
+        //// @include background-image(linear-gradient(#720909,#380202));
+        //@include border-radius(10px);
+        //margin: 2px;
+        //color: white;
+        //overflow: hidden;
+
+        //.alert-box{
+          //background: none;
+          //color: white;
+          //margin: 0;
+          //text-align: center;
+          //border: none;
+        //}
+
+      //}
+
+      //.description{
+        //border: 1px dashed #e3dace;
+        //padding: 7px;
+      //}
+
+      //.owner{
+        //font-style: italic;
+        //font-size: 11px;
+        //margin: 6px 0 0 0;
+        //text-align: right;
+        //margin: 6px 0;
+      //}
+
+      //.who{
+        //overflow: hidden;
+        //float: left;
+        //width: 100%;
+
+        //h3{
+          //margin: 12px 0;
+          //font-size: 20px;
+          //color: $gray-bb;
+
+          //small{
+            //color: $gray-dd;
+          //}
+          
+        //}
+
+        //.rem-time{
+          //color: red;
+          //margin-top: 5px;
+        //}
+
+        //.time-val{
+          //color: red;
+          //@include animation(flash-alert 1s infinite);
+        //}
+
+        //.player{
+          //border: 1px dashed #e3dace;
+          //padding: 4px 0 0 40px;
+          //background: transparent url("../images/estimation-game/cart.png") no-repeat left center;
+          //background-size: 15%;
+          //word-wrap: break-word;
+          //line-height: 28px;
+        //}
+
+        //.player.open{
+          //padding: 0;
+          //overflow: hidden;
+          //background: rgba(255,255,255,0.1);
+        //}
+
+        //.points{
+          //padding: 9px 17px;
+          //float: left;
+          //width: 20%;
+        //}
+        //.name{
+          //float: left;
+          //padding: 8px 10px;
+          //width: 80%;
+        //}
+
+      //}
+
+      //.cards{
+        //clear: both;
+        //margin: 10px;
+        //text-align: center;
+
+        //.list{
+          //overflow: hidden;
+          //margin-top: 12px;
+
+          //.card{
+            //background: transparent url('../images/poker_cards.png') no-repeat;
+            //width: 45px;
+            //height: 63px;
+            //padding: 15px;
+            //margin: 6px;
+            //cursor: pointer;
+            //float: left;
+
+            //&.p1{ background-position: 0 0; }
+            //&.p2{ background-position: -45px 0; }
+            //&.p3{ background-position: -90px 0; }
+            //&.p5{ background-position: -180px 0; }
+            //&.p8{ background-position: -315px 0; }
+            //&.pq{ background-position: -450 0; }
+
+            //// &.p1{ background-position: 0 -63px; }
+            //// &.p2{ background-position: -45px  -63px; }
+            //// &.p3{ background-position: -90px  -63px; }
+            //// &.p5{ background-position: -180px -63px; }
+            //// &.p8{ background-position: -315px -63px; }
+            //// &.pq{ background-position: -450px -63px; }
+
+            //input{
+              //width: 20px;
+              //font-size: 9px;
+              //padding: 0;
+              //height: 30px;
+              //margin-top: 3px;
+              //margin-left: -2px;
+            //}
+
+            //&.selected{
+              //@include opacity(0.5);
+              //&.pq {
+                //@include opacity(1);
+              //}
+            //}
+          //}
+
+        //}
+
+      //}
+
+      //.close-game{
+        //text-align: center;
+        //margin: 10px;
+        //.js-close{
+          //margin: 0 auto;
+        //}
+      //}
+
+      //.update{
+        //float: right;
+        //width: 100%;
+        //text-align: center;
+      //}
+
+    //}
+
+    //#list-players{
+      //float: left;
+
+      //h1{
+        //padding-left: 40px;
+        //background: transparent url('../images/estimation-game/people.png') no-repeat left center;
+      //}
+
+      //.head{
+        //border-left: none;
+        //padding: 7px 10px 7px 0;
+      //}
+
+      //.button{
+        //float: right;
+      //}
+
+      //.nametask{
+       //width: 225px;
+       //margin: 0;
+      //}
+
+      //.list{
+        //padding: 10px 10px 0 0;
+
+        //.item{
+          //border: 1px dashed #E3DACE;
+          //background: #E9E8E5;
+          //&.closed{
+            //text-decoration:line-through;
+          //}
+
+          //&.opened{
+            //padding-bottom: 0;
+          //}
+
+          //.name{
+            //i{
+              //height: 16px;
+              //width:  16px;
+              //float: left;
+              //margin: 2px 3px 0 -7px;
+            //}
+          //}
+
+          //.edit{
+            //float: right;
+            //height: 10px;
+            //width: 10px;
+            //display: block;
+            //background: transparent url('../images/games/edit.png') no-repeat center center;
+            //border: none;
+            //margin-right: 10px;
+            //margin-top: 1px;
+            //cursor: pointer;
+          //}
+
+          //.delete{
+            //float: right;
+            //height: 10px;
+            //width: 10px;
+            //display: block;
+            //background: transparent url('../images/games/delete.png') no-repeat center center;
+            //border: none;
+            //margin: 1px 8px 0 8px;
+            //cursor: pointer;
+          //}
+
+          //.play{
+            //float: right;
+            //height: 27px;
+            //width: 27px;
+            //float:right;
+            //display: block;
+            //background: transparent url('../images/games/playgame.png') no-repeat center center;
+            //border: none;
+            //margin-top: -8px;
+            //cursor: pointer;
+          //}
+
+          //.list-tasks-group{
+            //margin-left: 0;
+            //border-top: 1px solid #DFD4C7;
+            //margin-top: 5px;
+            //li{
+              //padding: 7px 0;
+            //}
+
+
+          //}
+
+          //&:hover{
+            //background: #fff;
+            //.play{
+              //background: transparent url('../images/games/play.png') no-repeat center center;
+            //}
+          //}
+
+        //}
+
+      //}
+
+    //}
+
+    //#list-tasks{
+      //float: left;
+
+      //.head{
+        //border-right: none;
+        //padding: 5px 0 5px 10px;
+
+        //h1{
+          //margin-top: 4px;
+        //}
+
+      //}
+
+      //#filter{
+        //float: right;
+        //width: 272px;
+        //margin: 0 5px;
+        //height: 27px;
+        //padding-left: 30px;
+        //background: #fff url('../images/search.png') no-repeat 10px center;
+        //@include global_font;
+      //}
+
+      //nav{
+        //float: right;
+
+        //a.button{
+          //float: left;
+          //margin: 2px 5px 0 5px;
+        //}
+
+      //}
+
+      //.list{
+        //padding-top: 10px;
+        //.popover{
+          //@include background-image(linear-gradient(white,#eee));
+          //.arrow{
+            //&:after{
+              //border-right-color: $gray-f7;
+            //}
+          //}
+          //.popover-title{
+            //@include background-image(linear-gradient(#555,black));
+            //color: white;
+            //font-size: 18px;
+            //font-weight: bold;
+          //}
+          //section{
+            //padding: 10px;
+            //overflow: hidden;
+          //}
+        //}
+
+        //.item{
+          //float: left;
+          //border-right: 1px solid #DFD4C7;
+          //width: 49%;
+          //margin-left: 3px;
+          //cursor: pointer;
+
+          //.drag{
+            //float: right;
+            //height: 10px;
+            //width: 10px;
+            //display: block;
+            //background: transparent url('../images/games/drag.png') no-repeat center center;
+            //border: none;
+            //margin: 1px 8px 0 8px;
+            //opacity: .4;
+            //cursor: move;
+          //}
+
+          //&.selected{
+            //background: #fff;
+          //}
+
+          //&:hover{
+            //background: #FAF9F8;
+            //color: #000;
+            //border-right: 3px solid #DFD4C7;
+            //.drag{
+              //opacity: 1;
+            //}
+          //}
+        //}
+      //}
+    //}
+  //}
+//}
+
+#main-content{
+  background: red;
 }
 
-@import "mixins";
-@import "animations";
-@import "status/*.png";
-@include all-status-sprites;
-$experimental-support-for-svg: true;
+body{
+  background: grey;
+}
 
 #player-container{
-
-  h1.name{
-    font-size: 30px;
-    margin-bottom: 30px;
-  }
-
-  .container.row{
-    width: 940px;
-    margin: 0 auto;
-    background: transparent url('../images/games/line-bg.jpg') repeat-y 235px;
-
-    .head{
-      border: 1px solid #DFD4C8;
-      overflow: hidden;
-
-      h1{
-        float: left;
-        line-height: 22px;
-        font-size: 18px;
-      }
-
-    }
-    .item{
-      @include global_font;
-      font-size: 12px;
-      color: #999999;
-      padding: 7px 0 7px 15px;
-      margin: 2px 0;
-    }
-
-    .js-player-list{
-      .alert-box{
-        text-align: center;
-      }
-    }
-
-    #task-detail{
-      float: left;
-
-      h1{
-        padding-left: 30px;
-        background: transparent url('../images/games/title-games.png') no-repeat left center;
-      }
-
-      .head{
-        border-right: none;
-        padding: 7px 10px 7px 0;
-        height: 39px;
-      }
-
-      .title{
-        clear: both;
-        font-size: 18px;
-        text-align: center;
-        margin: 10px;
-        color: white;
-      }
-
-      .labels{
-        display: inline-block;
-        margin-bottom: 5px;
-
-        label{
-          float: right;
-          margin: 0 4px;
-          font-size: 11px;
-          background: $red-99;
-          @include border-radius(5px);
-          padding: 3px 5px;
-          color: white;
-          @include transition(.5s);
-          &:hover{
-            background: $red-c7;
-          }
-        }
-      }
-      #play-area{
-        border: 3px solid black;
-        padding: 15px;
-        //black
-        @include background-image(linear-gradient($black-55,black));
-        // red wine
-        // @include background-image(linear-gradient(#720909,#380202));
-        @include border-radius(10px);
-        margin: 2px;
-        color: white;
-        overflow: hidden;
-
-        .alert-box{
-          background: none;
-          color: white;
-          margin: 0;
-          text-align: center;
-          border: none;
-        }
-
-      }
-
-      .description{
-        border: 1px dashed #e3dace;
-        padding: 7px;
-      }
-
-      .owner{
-        font-style: italic;
-        font-size: 11px;
-        margin: 6px 0 0 0;
-        text-align: right;
-        margin: 6px 0;
-      }
-
-      .who{
-        overflow: hidden;
-        float: left;
-        width: 100%;
-
-        h3{
-          margin: 12px 0;
-          font-size: 20px;
-          color: $gray-bb;
-
-          small{
-            color: $gray-dd;
-          }
-          
-        }
-
-        .rem-time{
-          color: red;
-          margin-top: 5px;
-        }
-
-        .time-val{
-          color: red;
-          @include animation(flash-alert 1s infinite);
-        }
-
-        .player{
-          border: 1px dashed #e3dace;
-          padding: 4px 0 0 40px;
-          background: transparent url("../images/estimation-game/cart.png") no-repeat left center;
-          background-size: 15%;
-          word-wrap: break-word;
-          line-height: 28px;
-        }
-
-        .player.open{
-          padding: 0;
-          overflow: hidden;
-          background: rgba(255,255,255,0.1);
-        }
-
-        .points{
-          padding: 9px 17px;
-          float: left;
-          width: 20%;
-        }
-        .name{
-          float: left;
-          padding: 8px 10px;
-          width: 80%;
-        }
-
-      }
-
-      .cards{
-        clear: both;
-        margin: 10px;
-        text-align: center;
-
-        .list{
-          overflow: hidden;
-          margin-top: 12px;
-
-          .card{
-            background: transparent url('../images/poker_cards.png') no-repeat;
-            width: 45px;
-            height: 63px;
-            padding: 15px;
-            margin: 6px;
-            cursor: pointer;
-            float: left;
-
-            &.p1{ background-position: 0 0; }
-            &.p2{ background-position: -45px 0; }
-            &.p3{ background-position: -90px 0; }
-            &.p5{ background-position: -180px 0; }
-            &.p8{ background-position: -315px 0; }
-            &.pq{ background-position: -450 0; }
-
-            // &.p1{ background-position: 0 -63px; }
-            // &.p2{ background-position: -45px  -63px; }
-            // &.p3{ background-position: -90px  -63px; }
-            // &.p5{ background-position: -180px -63px; }
-            // &.p8{ background-position: -315px -63px; }
-            // &.pq{ background-position: -450px -63px; }
-
-            input{
-              width: 20px;
-              font-size: 9px;
-              padding: 0;
-              height: 30px;
-              margin-top: 3px;
-              margin-left: -2px;
-            }
-
-            &.selected{
-              @include opacity(0.5);
-              &.pq {
-                @include opacity(1);
-              }
-            }
-          }
-
-        }
-
-      }
-
-      .close-game{
-        text-align: center;
-        margin: 10px;
-        .js-close{
-          margin: 0 auto;
-        }
-      }
-
-      .update{
-        float: right;
-        width: 100%;
-        text-align: center;
-      }
-
-    }
-
-    #list-players{
-      float: left;
-
-      h1{
-        padding-left: 40px;
-        background: transparent url('../images/estimation-game/people.png') no-repeat left center;
-      }
-
-      .head{
-        border-left: none;
-        padding: 7px 10px 7px 0;
-      }
-
-      .button{
-        float: right;
-      }
-
-      .nametask{
-       width: 225px;
-       margin: 0;
-      }
-
-      .list{
-        padding: 10px 10px 0 0;
-
-        .item{
-          border: 1px dashed #E3DACE;
-          background: #E9E8E5;
-          &.closed{
-            text-decoration:line-through;
-          }
-
-          &.opened{
-            padding-bottom: 0;
-          }
-
-          .name{
-            i{
-              height: 16px;
-              width:  16px;
-              float: left;
-              margin: 2px 3px 0 -7px;
-            }
-          }
-
-          .edit{
-            float: right;
-            height: 10px;
-            width: 10px;
-            display: block;
-            background: transparent url('../images/games/edit.png') no-repeat center center;
-            border: none;
-            margin-right: 10px;
-            margin-top: 1px;
-            cursor: pointer;
-          }
-
-          .delete{
-            float: right;
-            height: 10px;
-            width: 10px;
-            display: block;
-            background: transparent url('../images/games/delete.png') no-repeat center center;
-            border: none;
-            margin: 1px 8px 0 8px;
-            cursor: pointer;
-          }
-
-          .play{
-            float: right;
-            height: 27px;
-            width: 27px;
-            float:right;
-            display: block;
-            background: transparent url('../images/games/playgame.png') no-repeat center center;
-            border: none;
-            margin-top: -8px;
-            cursor: pointer;
-          }
-
-          .list-tasks-group{
-            margin-left: 0;
-            border-top: 1px solid #DFD4C7;
-            margin-top: 5px;
-            li{
-              padding: 7px 0;
-            }
-
-
-          }
-
-          &:hover{
-            background: #fff;
-            .play{
-              background: transparent url('../images/games/play.png') no-repeat center center;
-            }
-          }
-
-        }
-
-      }
-
-    }
-
-    #list-tasks{
-      float: left;
-
-      .head{
-        border-right: none;
-        padding: 5px 0 5px 10px;
-
-        h1{
-          margin-top: 4px;
-        }
-
-      }
-
-      #filter{
-        float: right;
-        width: 272px;
-        margin: 0 5px;
-        height: 27px;
-        padding-left: 30px;
-        background: #fff url('../images/search.png') no-repeat 10px center;
-        @include global_font;
-      }
-
-      nav{
-        float: right;
-
-        a.button{
-          float: left;
-          margin: 2px 5px 0 5px;
-        }
-
-      }
-
-      .list{
-        padding-top: 10px;
-        .popover{
-          @include background-image(linear-gradient(white,#eee));
-          .arrow{
-            &:after{
-              border-right-color: $gray-f7;
-            }
-          }
-          .popover-title{
-            @include background-image(linear-gradient(#555,black));
-            color: white;
-            font-size: 18px;
-            font-weight: bold;
-          }
-          section{
-            padding: 10px;
-            overflow: hidden;
-          }
-        }
-
-        .item{
-          float: left;
-          border-right: 1px solid #DFD4C7;
-          width: 49%;
-          margin-left: 3px;
-          cursor: pointer;
-
-          .drag{
-            float: right;
-            height: 10px;
-            width: 10px;
-            display: block;
-            background: transparent url('../images/games/drag.png') no-repeat center center;
-            border: none;
-            margin: 1px 8px 0 8px;
-            opacity: .4;
-            cursor: move;
-          }
-
-          &.selected{
-            background: #fff;
-          }
-
-          &:hover{
-            background: #FAF9F8;
-            color: #000;
-            border-right: 3px solid #DFD4C7;
-            .drag{
-              opacity: 1;
-            }
-          }
-        }
-      }
-    }
-  }
+  float: left;
+  width: 50%;
+  max-width: 300px;
 }
-
-
