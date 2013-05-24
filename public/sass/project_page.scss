@@ -443,6 +443,8 @@
   //}
 //}
 
+my style
+
 #main-content{
   background: red;
 }
@@ -453,6 +455,12 @@ body{
 
 #player-container{
   float: left;
-  width: 50%;
+  width: 25%;
   max-width: 300px;
+}
+
+#play-area{
+  float: left;
+  width: 25%;
+  max-width: 600px;
 }
